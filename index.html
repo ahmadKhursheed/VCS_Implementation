@@ -34,11 +34,109 @@
     </p>
     <b>STEP 3</b>
     <p>
-        Adding files into staged area. Staged area is a preview area for github developers.
+        Now, we've to understand some working of Git.
         <br>
-        <i>git add fileName</i>
+        we've created a file in the git repository, in same way, we can add files as much as we want. there are three
+        stages <br>
+        for a git repository,
+    <ul>
+        <li>
+            Add the file in git repository ( simple words, in Git negivation).
+        </li>
+        <li>
+            Stage the current file, so we can have idea what go store in the next commit. Although,this step is optional
+        </li>
+        <li>
+            Commit(store the file permanatly) the file in the Git negivation
+        </li>
+    </ul>
+    while working on the files, we can check the status of files, we also have command for that.
+    <br>
+    let give it a try
+    <br>
+    we've added the file in folder but neither we, add the file git repository nor Commit
+    <br>
+    <ol>
+        <li>
+            <b>Adding File in Git repository</b>
+            <p>
+                adding the file in git repository is easy with the command,
+                <br>
+                <i>
+                    "git add 'filename'" or "git add ."
+                </i>
         <br>
         <img src="./assets/Screenshot 2021-10-10 185417.png" alt="init img" width="1200" height="500">
+    </p>
+    <b>STEP 4</b>
+    <p>
+        <li>
+            <b>
+                Stage File in git repository
+            </b>
+            <p>
+                adding file in git is necessary but it doesn't meet the requirement. it just now track which file <br>
+                is changes and where. <br>
+                for the file changes to be permanat, we have to either stage the situation of File. Think it as <br>
+                you wanna some more rough work today, but don't want that work to be stored or parmanent <br>
+                So, stage commands will help you achieve this. <br>
+                <i>
+                    git stage
+                </i>
+
+            </p>
+        </li>
+        <li>
+            <b>
+                Commit the File
+            </b>
+            <p>
+                last think we have to do is to make all the change patrmaent, git coomit command,
+                <br>
+                can help in this.
+                <br>
+                <i>
+                    git commit .
+                </i>
+                <br>
+                <img src="./assets/Screenshot 2021-10-10 185734.png" alt="commit" width="1200" height="200">
+            </p>
+        </li>
+    </p>
+    <h2>
+        GitHub work
+    </h2>
+    <p>
+        we're done with git work keeping things as simple as possible, now we're moving towards GitHub <br>
+        GitHub is the GUI version of Git, it make the things bit simple for bigenner but the recommended is Git with
+        termianl <br>
+        but GitHub on the cloud provided the only storage for your local project, which too awosome. <br>
+
+        things to do:
+    <ol>
+        <li>
+            create GitHub account
+        </li>
+        <li>
+            create new repository. optional
+        </li>
+        <li>
+            connect to remote termianl
+        </li>
+        <li>
+            push your work to the cloud
+        </li>
+    </ol>
+    <br>
+    Now here i'm pushing to my github account.
+    <b>
+        Connecting the git to cloud
+    </b>
+    <p>
+        <br>
+        <i>git push origin branchName</i>
+        <br>
+        <img src="./assets/Screenshot 2021-10-10 185940.png" alt="connection" width="1200" height="100" >
     </p>
 </body>
 </html>
